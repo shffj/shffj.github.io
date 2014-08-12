@@ -5,3 +5,13 @@
 .nav>li>a>img {
 	max-height: 22px;
 }
+
+@media (max-width: 768px) {
+	.navbar .navbar-nav {
+		float: none;
+	}
+
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+}
